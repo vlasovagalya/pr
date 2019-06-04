@@ -10,40 +10,40 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication2
 {
-    public partial class Form6 : Form
+    public partial class Form2 : Form
     {
-        public Form6()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
-
-        }
-
-        private void label1_Paint(object sender, PaintEventArgs e)
-        {
-
+            Application.Exit();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form form1 = new Form2();
-            form1.Show();
+            Form form3 = new СhooseСity();
+            form3.Show();
             this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form form = new Authorization();
-            form.Show();
+            Form form4 = new CreateRequest();
+            form4.Show();
             this.Hide();
         }
 
-        private void Form6_Load(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
             this.FormBorderStyle = FormBorderStyle.None;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -1,0 +1,6 @@
+C:\Users\пк\Downloads\progga23\proga\WindowsFormsApplication2\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\пк\Downloads\progga23\proga\WindowsFormsApplication2\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\пк\Downloads\progga23\proga\WindowsFormsApplication2\ClassLibrary1\obj\Debug\Reservation.csprojAssemblyReference.cache
+C:\Users\пк\Downloads\progga23\proga\WindowsFormsApplication2\ClassLibrary1\obj\Debug\Reservation.csproj.CoreCompileInputs.cache
+C:\Users\пк\Downloads\progga23\proga\WindowsFormsApplication2\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\пк\Downloads\progga23\proga\WindowsFormsApplication2\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

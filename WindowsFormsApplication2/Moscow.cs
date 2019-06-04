@@ -10,40 +10,40 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication2
 {
-    public partial class Form6 : Form
+    public partial class Moscow : Form
     {
-        public Form6()
+        public Moscow()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+       
+
+        private void Form7_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Paint(object sender, PaintEventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form form1 = new Form2();
-            form1.Show();
-            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form form = new Authorization();
+            Form form = new Number();
             form.Show();
             this.Hide();
         }
 
-        private void Form6_Load(object sender, EventArgs e)
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            this.FormBorderStyle = FormBorderStyle.None;
+
         }
     }
 }

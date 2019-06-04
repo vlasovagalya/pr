@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication2
 {
-    public partial class Form6 : Form
+    public partial class Registration : Form
     {
-        public Form6()
+        public Registration()
         {
             InitializeComponent();
         }
@@ -22,28 +22,12 @@ namespace WindowsFormsApplication2
 
         }
 
-        private void label1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
-        {
-            Form form1 = new Form2();
-            form1.Show();
-            this.Hide();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
         {
             Form form = new Authorization();
             form.Show();
             this.Hide();
-        }
 
-        private void Form6_Load(object sender, EventArgs e)
-        {
-            this.FormBorderStyle = FormBorderStyle.None;
         }
     }
 }
